@@ -1,17 +1,32 @@
-[{
-  "Author": "tea-time-xiv",
-  "Name": "Safety Lock",
-  "Punchline": "Soft Safety Lock to prevent accidental in-game interactions",
-  "Description": "Blocks vendor windows, duty finder interactions, and quest acceptance dialogs when enabled. Use /safetylock to toggle. Features enable-on-startup and individual feature toggles.",
-  "Changelog": "- 1.1.0.1",
-  "IsHide": false,
-  "InternalName": "SafetyLockPlugin",
-  "AssemblyVersion": "1.1.0.1",
-  "IsTestingExclusive": false,
-  "ApplicableVersion": "any",
-  "DalamudApiLevel": 15,
-  "DownloadCount": 0,
-  "LastUpdate": 1777531506,
-  "DownloadLinkInstall": "https://github.com/tea-time-xiv/safetylock/releases/download/v1.1.0.1/SafetyLockPlugin.zip",
-  "DownloadLinkUpdate": "https://github.com/tea-time-xiv/safetylock/releases/download/v1.1.0.1/SafetyLockPlugin.zip"
-}]
+[
+  {
+    "Author": "tea-time-xiv",
+    "Name": "Safety Lock",
+    "Punchline": "Soft Safety Lock to prevent accidental in-game interactions",
+    "Description": "Blocks vendor windows, duty finder interactions, and quest acceptance dialogs when enabled. Use /safetylock to toggle. Features enable-on-startup and individual feature toggles.",
+    "Changelog": "- 1.1.0.1",
+    "IsHide": false,
+    "InternalName": "SafetyLockPlugin",
+    "AssemblyVersion": "1.1.0.1",
+    "IsTestingExclusive": false,
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "DownloadCount": 0,
+    "LastUpdate": 1777531506,
+    "DownloadLinkInstall": "https://github.com/tea-time-xiv/safetylock/releases/download/v1.1.0.1/SafetyLockPlugin.zip",
+    "DownloadLinkUpdate": "https://github.com/tea-time-xiv/safetylock/releases/download/v1.1.0.1/SafetyLockPlugin.zip"
+  },
+  {
+    "InternalName": "ZoomTilt",
+    "Name": "ZoomTilt",
+    "Author": "Tenrys",
+    "Punchline": "Change 3rd person camera angle depending on camera zoom.",
+    "Description": "Change the 3rd person camera angle character config setting depending how zoomed in you are. Zoom out, and you will be able to see more of the world. Zoom in, the camera will be focused on your character.",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/tea-time-xiv/ZoomTilt/releases/download/v1.0.0.6/ZoomTilt.zip",
+    "DownloadLinkUpdate": "https://github.com/tea-time-xiv/ZoomTilt/releases/download/v1.0.0.6/ZoomTilt.zip"
+  }
+]
