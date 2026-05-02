@@ -23,7 +23,7 @@
     "Punchline": "Change 3rd person camera angle depending on camera zoom.",
     "Description": "Change the 3rd person camera angle character config setting depending how zoomed in you are. Zoom out, and you will be able to see more of the world. Zoom in, the camera will be focused on your character.",
     "IsHide": false,
-    "AssemblyVersion": "1.0.0.7",
+    "AssemblyVersion": "1.0.0.6",
     "IsTestingExclusive": false,
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
