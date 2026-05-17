@@ -18,16 +18,16 @@
     "Name": "Safety Lock",
     "Punchline": "Soft Safety Lock to prevent accidental in-game interactions",
     "Description": "Blocks vendor windows, duty finder interactions, and quest acceptance dialogs when enabled. Use /safetylock to toggle. Features enable-on-startup and individual feature toggles.",
-    "Changelog": "- 1.2.0.0",
+    "Changelog": "- 1.2.1.0",
     "IsHide": false,
     "InternalName": "SafetyLockPlugin",
-    "AssemblyVersion": "1.2.0.0",
+    "AssemblyVersion": "1.2.1.0",
     "IsTestingExclusive": false,
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "DownloadCount": 0,
-    "LastUpdate": 1778943176,
-    "DownloadLinkInstall": "https://github.com/tea-time-xiv/safetylock/releases/download/v1.2.0.0/SafetyLockPlugin.zip",
-    "DownloadLinkUpdate": "https://github.com/tea-time-xiv/safetylock/releases/download/v1.2.0.0/SafetyLockPlugin.zip"
+    "LastUpdate": 1778994850,
+    "DownloadLinkInstall": "https://github.com/tea-time-xiv/safetylock/releases/download/v1.2.1.0/SafetyLockPlugin.zip",
+    "DownloadLinkUpdate": "https://github.com/tea-time-xiv/safetylock/releases/download/v1.2.1.0/SafetyLockPlugin.zip"
   }
 ]
