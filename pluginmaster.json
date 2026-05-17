@@ -29,5 +29,22 @@
     "LastUpdate": 1778994850,
     "DownloadLinkInstall": "https://github.com/tea-time-xiv/safetylock/releases/download/v1.2.1.0/SafetyLockPlugin.zip",
     "DownloadLinkUpdate": "https://github.com/tea-time-xiv/safetylock/releases/download/v1.2.1.0/SafetyLockPlugin.zip"
+  },
+  {
+    "Author": "tea-time-xiv",
+    "Name": "Autools",
+    "Punchline": "Automation utilities for FFXIV",
+    "Description": "Quality of life automation features including auto Priority Aetheryte Pass usage (/passauto) and auto-cancel Jog buff after Sprint expires (/nojog).",
+    "Changelog": "- 0.0.0.1",
+    "IsHide": false,
+    "InternalName": "Autools",
+    "AssemblyVersion": "0.0.0.1",
+    "IsTestingExclusive": false,
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "DownloadCount": 0,
+    "LastUpdate": 1779017651,
+    "DownloadLinkInstall": "https://github.com/tea-time-xiv/autools/releases/download/v0.0.0.1/Autools.zip",
+    "DownloadLinkUpdate": "https://github.com/tea-time-xiv/autools/releases/download/v0.0.0.1/Autools.zip"
   }
 ]
