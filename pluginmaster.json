@@ -35,16 +35,16 @@
     "Name": "Autools",
     "Punchline": "Automation utilities for FFXIV",
     "Description": "Quality of life automation features including auto Priority Aetheryte Pass usage (/passauto) and auto-cancel Jog buff after Sprint expires (/nojog).",
-    "Changelog": "- 0.0.0.1",
+    "Changelog": "- 0.1.0.0",
     "IsHide": false,
     "InternalName": "Autools",
-    "AssemblyVersion": "0.0.0.1",
+    "AssemblyVersion": "0.1.0.0",
     "IsTestingExclusive": false,
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "DownloadCount": 0,
-    "LastUpdate": 1779017651,
-    "DownloadLinkInstall": "https://github.com/tea-time-xiv/autools/releases/download/v0.0.0.1/Autools.zip",
-    "DownloadLinkUpdate": "https://github.com/tea-time-xiv/autools/releases/download/v0.0.0.1/Autools.zip"
+    "LastUpdate": 1779017739,
+    "DownloadLinkInstall": "https://github.com/tea-time-xiv/autools/releases/download/v0.1.0.0/Autools.zip",
+    "DownloadLinkUpdate": "https://github.com/tea-time-xiv/autools/releases/download/v0.1.0.0/Autools.zip"
   }
 ]
