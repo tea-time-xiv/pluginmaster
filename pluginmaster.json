@@ -74,5 +74,22 @@
     "CategoryTags": [
       "utility"
     ]
+  },
+  {
+    "Author": "tea-time-xiv",
+    "Name": "Cratools",
+    "Punchline": "Highlights the items and gear you no longer need.",
+    "Description": "Paste Teamcraft's inventory-cleanup list and Cratools fades the inventory slots you need to keep, so the removable items stand out. The armory cleanup scan marks gear no class you play can wear, or that you already own something better than, and tints it in the Armoury Chest. Read-only: it never moves or discards anything.",
+    "Changelog": "- 0.2.0.0",
+    "IsHide": false,
+    "InternalName": "Cratools",
+    "AssemblyVersion": "0.2.0.0",
+    "IsTestingExclusive": false,
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "DownloadCount": 0,
+    "LastUpdate": 1785661976,
+    "DownloadLinkInstall": "https://github.com/tea-time-xiv/cratools/releases/download/v0.2.0.0/Cratools.zip",
+    "DownloadLinkUpdate": "https://github.com/tea-time-xiv/cratools/releases/download/v0.2.0.0/Cratools.zip"
   }
 ]
