@@ -1,0 +1,27 @@
+[
+  {
+    "repo": "tea-time-xiv/autools",
+    "internalName": "Autools",
+    "asset": "Autools.zip"
+  },
+  {
+    "repo": "tea-time-xiv/cratools",
+    "internalName": "Cratools",
+    "asset": "Cratools.zip"
+  },
+  {
+    "repo": "tea-time-xiv/safetylock",
+    "internalName": "SafetyLockPlugin",
+    "asset": "SafetyLockPlugin.zip"
+  },
+  {
+    "repo": "tea-time-xiv/Tea-Time-Deck",
+    "internalName": "TeaTimeDeck",
+    "asset": "TeaTimeDeck.zip"
+  },
+  {
+    "repo": "tea-time-xiv/ZoomTilt",
+    "internalName": "ZoomTilt",
+    "asset": "ZoomTilt.zip"
+  }
+]
