@@ -48,34 +48,6 @@
     "DownloadLinkUpdate": "https://github.com/tea-time-xiv/autools/releases/download/v0.1.0.0/Autools.zip"
   },
   {
-    "Author": "Tea Time",
-    "Name": "Tea Time Deck",
-    "Punchline": "Drive FFXIV from a Stream Deck.",
-    "Description": "Exposes a local API that a companion Elgato Stream Deck plugin talks to. Provides auto-populated browsers for every emote, mount and minion you own, plus live status readouts on deck keys.",
-    "Changelog": "- 0.2.0.0",
-    "IsHide": false,
-    "InternalName": "TeaTimeDeck",
-    "AssemblyVersion": "0.2.0.0",
-    "IsTestingExclusive": false,
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": 15,
-    "DownloadCount": 0,
-    "LastUpdate": 1785575588,
-    "DownloadLinkInstall": "https://github.com/tea-time-xiv/Tea-Time-Deck/releases/download/v0.2.0.0/TeaTimeDeck.zip",
-    "DownloadLinkUpdate": "https://github.com/tea-time-xiv/Tea-Time-Deck/releases/download/v0.2.0.0/TeaTimeDeck.zip",
-    "RepoUrl": "https://github.com/tea-time-xiv/Tea-Time-Deck",
-    "Tags": [
-      "streamdeck",
-      "elgato",
-      "emote",
-      "mount",
-      "macro"
-    ],
-    "CategoryTags": [
-      "utility"
-    ]
-  },
-  {
     "Author": "tea-time-xiv",
     "Name": "Cratools",
     "Punchline": "Highlights the items and gear you no longer need.",
@@ -91,5 +63,33 @@
     "LastUpdate": 1785661976,
     "DownloadLinkInstall": "https://github.com/tea-time-xiv/cratools/releases/download/v0.2.0.0/Cratools.zip",
     "DownloadLinkUpdate": "https://github.com/tea-time-xiv/cratools/releases/download/v0.2.0.0/Cratools.zip"
+  },
+  {
+    "Author": "Tea Time",
+    "Name": "Tea Time Deck",
+    "Punchline": "Drive FFXIV from a Stream Deck.",
+    "Description": "Exposes a local API that a companion Elgato Stream Deck plugin talks to. Provides auto-populated browsers for every emote, mount and minion you own, plus live status readouts on deck keys. Open /ttd for a link to download that companion plugin.",
+    "Changelog": "- 0.3.0.0",
+    "IsHide": false,
+    "InternalName": "TeaTimeDeck",
+    "AssemblyVersion": "0.3.0.0",
+    "IsTestingExclusive": false,
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "DownloadCount": 0,
+    "LastUpdate": 1788591388,
+    "DownloadLinkInstall": "https://github.com/tea-time-xiv/Tea-Time-Deck/releases/download/v0.3.0.0/TeaTimeDeck.zip",
+    "DownloadLinkUpdate": "https://github.com/tea-time-xiv/Tea-Time-Deck/releases/download/v0.3.0.0/TeaTimeDeck.zip",
+    "RepoUrl": "https://github.com/tea-time-xiv/Tea-Time-Deck",
+    "Tags": [
+      "streamdeck",
+      "elgato",
+      "emote",
+      "mount",
+      "macro"
+    ],
+    "CategoryTags": [
+      "utility"
+    ]
   }
 ]
