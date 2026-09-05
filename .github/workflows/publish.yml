@@ -1,0 +1,58 @@
+name: Publish pluginmaster
+
+# No plugin repo can trigger this: none of them holds a credential for this repo any more.
+# The schedule picks new releases up on its own, and "Run workflow" publishes one at once.
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Why this run (shown in the run list)'
+        required: false
+        default: 'manual publish'
+  schedule:
+    - cron: '*/15 * * * *'
+
+permissions:
+  contents: read
+
+# One writer at a time: a manual run and a scheduled one must not race on the same file.
+concurrency:
+  group: pluginmaster
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: '3.12'
+
+      - name: Build pluginmaster.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python build_pluginmaster.py
+
+      # Never push a file the installer would choke on, even if the generator changes.
+      - name: Validate pluginmaster.json
+        run: python validate_pluginmaster.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pluginmaster.json
+          if git diff --cached --quiet; then
+            echo "pluginmaster.json already up to date; nothing to push."
+            exit 0
+          fi
+          git commit -m "Update pluginmaster.json"
+          git push

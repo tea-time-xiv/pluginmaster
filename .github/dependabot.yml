@@ -1,0 +1,11 @@
+version: 2
+
+updates:
+  # Actions are pinned to commit SHAs, which do not drift on their own. Without this
+  # they would simply rot: no new tag, no security fix, no notice.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: ci
