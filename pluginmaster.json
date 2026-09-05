@@ -106,7 +106,7 @@
     "Name": "ZoomTilt",
     "Punchline": "Change 3rd person camera angle depending on camera zoom.",
     "Description": "Change the 3rd person camera angle character config setting depending how zoomed in you are.\nZoom out, and you will be able to see more of the world. Zoom in, the camera will be focused on your character.",
-    "Changelog": "- 1.0.0.6",
+    "Changelog": "- Updated for Dalamud API level 15.\n- Moved to the Tea Time plugin repository.",
     "InternalName": "ZoomTilt",
     "AssemblyVersion": "1.0.0.6",
     "RepoUrl": "https://github.com/tea-time-xiv/ZoomTilt",
